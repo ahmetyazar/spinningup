@@ -9,12 +9,12 @@
     "act_noise":	0.1,
     "actor_critic":	"MLPActorCritic",
     "batch_size":	100,
-    "env_fn":	"<function <lambda> at 0x7fd920282730>",
-    "epochs":	2,
+    "env_fn":	"<function <lambda> at 0x7fd8fc85d378>",
+    "epochs":	250,
     "exp_name":	"ddpg_bipedalwalker",
     "gamma":	0.99,
     "logger":	{
-        "<spinup.utils.logx.EpochLogger object at 0x7fd920278b70>":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7fd8fc7cbf60>":	{
             "epoch_dict":	{},
             "exp_name":	"ddpg_bipedalwalker",
             "first_row":	true,
@@ -41,7 +41,7 @@
     "save_freq":	1,
     "seed":	0,
     "start_steps":	10000,
-    "steps_per_epoch":	1500,
+    "steps_per_epoch":	4000,
     "update_after":	1000,
     "update_every":	50
 }
